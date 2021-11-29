@@ -1,4 +1,6 @@
 
 out/
 *.class
+.DB_Store
+src/.DB_Store
 
