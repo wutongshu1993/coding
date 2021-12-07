@@ -1,7 +1,5 @@
 package linkedList;
 
-import javafx.application.Application;
-import javafx.stage.Stage;
 
 /**
  * 判断两个链表是否相交
