@@ -1,4 +1,4 @@
-package array;
+package array.presum;
 
 public class NumMatrix {
     int[][] preSum;

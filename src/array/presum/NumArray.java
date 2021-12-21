@@ -1,4 +1,4 @@
-package array;
+package array.presum;
 
 /**
  * https://leetcode-cn.com/problems/range-sum-query-immutable/
