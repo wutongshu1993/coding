@@ -103,4 +103,15 @@ public class Difference {
         }
         return true;
     }
+
+    /**
+     * https://leetcode-cn.com/problems/split-array-largest-sum/
+     * 410. 分割数组的最大值
+     * @param nums
+     * @param m
+     * @return
+     */
+    public int splitArray(int[] nums, int m) {
+        return 0;
+    }
 }
