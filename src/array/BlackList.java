@@ -1,8 +1,7 @@
 package array;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Random;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 /**
  * https://leetcode-cn.com/problems/random-pick-with-blacklist/
@@ -36,5 +35,18 @@ public class BlackList {
             return map.get(r);
         }
         return r;
+    }
+
+    public static void main(String[] args){
+        SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        Date date=new Date();
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTime(date);
+        calendar.set(Calendar.HOUR_OF_DAY, 0);
+        calendar.set(Calendar.MINUTE, 0);
+        calendar.set(Calendar.SECOND, 0);
+        calendar.add(Calendar.DAY_OF_MONTH, -7);
+        date = calendar.getTime();
+        System.out.println(sdf.format(date));
     }
 }
