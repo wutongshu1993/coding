@@ -7,7 +7,6 @@
 // @lc code=start
 
 // import treeNode.TreeNode;
-
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
