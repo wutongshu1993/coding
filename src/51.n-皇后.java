@@ -9,7 +9,7 @@ import java.util.Objects;
  */
 
 // @lc code=start
-class Solution {
+class Solution51 {
     List<List<String>> res = new ArrayList<>();
     public List<List<String>> solveNQueens(int n) {
         // 初始化棋盘
