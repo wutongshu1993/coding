@@ -4,8 +4,6 @@ import java.util.List;
 import java.util.Queue;
 import java.util.Set;
 
-import javax.swing.tree.TreeNode;
-
 /*
  * @lc app=leetcode.cn id=102 lang=java
  *
